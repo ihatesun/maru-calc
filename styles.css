@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #06b6d4;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  padding: 0 0.5rem;
+  margin: 0 auto;
+  /* delete after */
+}
+
+.converter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid black;
+}
+
+.converter input {
+  width: 100%;
+  padding: 0.25rem;
+}
+
+.converter label {
+  font-size: 1.25rem;
+  align-self: flex-start;
+}
